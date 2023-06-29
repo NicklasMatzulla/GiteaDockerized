@@ -1,0 +1,6 @@
+git.playunlimited.de {
+    reverse_proxy gitea:3000
+    tls admin@playunlimited.de {
+        dns cloudflare <cloudflare_token>
+    }
+}
